@@ -28,3 +28,4 @@ export const githubInfoLoader = async() => {
     let data = await fetch('https://api.github.com/users/idityage')
     return data.json()
 }
+
